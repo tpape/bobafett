@@ -1,0 +1,11 @@
+_site
+_sass/_custom.scss
+_config.yml
+_posts
+
+_updateScript/_backup
+_updateScript/_download
+.sass-cache
+
+
+_config.yml
