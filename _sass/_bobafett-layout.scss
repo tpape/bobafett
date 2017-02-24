@@ -27,7 +27,7 @@ body a:hover{
 	text-decoration: none;
 }
 table{
-	margin-left:auto; 
+	margin-left:auto;
 	margin-right:auto;
 }
 td img, th img{
@@ -85,16 +85,14 @@ td img, th img{
 	-moz-filter: blur($panel-bg-blur);
 	-o-filter: blur($panel-bg-blur);
 	-ms-filter: blur($panel-bg-blur);
-	filter: blur($panel-bg-blur);	
+	filter: blur($panel-bg-blur);
 	opacity: $panel-bg-opacity;
-	background: url($background-image);
 	background-size: 100% 100%;
 	@media(max-width: $responsive-witdh){
 		display:none;
 	}
 }
 .panel-avatar{
-	background-image: url($avatar-image);
 	background-repeat: no-repeat;
 	background-size: 180px 180px;
 	height: 180px;
@@ -125,7 +123,7 @@ a:hover .panel-avatar{
 	text-align: center;
 	margin-top: 20px;
 	font-size: $panel-name-size;
-	
+
 }
 .panel-social{
 	padding: 0px;
@@ -183,7 +181,7 @@ a:hover .panel-avatar{
 #navbar .active a{
 	font-weight:bold;
 
-} 
+}
 
 .nav>li>a{
 	padding: 0px;
@@ -210,7 +208,7 @@ a:hover .panel-avatar{
 	color : $content-link-color-hover;
 }
  section{
-	
+
 }
 #content img{
 	margin-left: auto;
