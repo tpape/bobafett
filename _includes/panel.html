@@ -1,14 +1,14 @@
 <!-- Panel -->
 
 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-  <div id="panel" style="background-image: url( '{{ site.baseurl}}/assets/bobafett.jpg')">
+  <div id="panel" >
     {% if site.vcard %}
     <a href="{{ site.vcard }}">
 
     {% else if site.blog_url %}
       <a target="_blank" href="{{ site.blog_url }}">
     {% endif %}
-    <div  class="panel-avatar"></div>
+    <div  class="panel-avatar" style="background-image: url( '{{ site.baseurl}}/assets/bobafett.jpg')"></div>
     {% if site.blog_url or site.vcard %}
       </a>
     {% endif %}
